@@ -1,13 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+// Sections
+import { Hero } from './section/Hero';
+import { Team } from './section/Team';
+import { Concept01 } from './section/Concept01';
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <p className="bg-black">test</p>
-            </header>
-        </div>
+        <>
+            <Hero />
+            <Team />
+            <Concept01 />
+        </>
     );
 }
 
