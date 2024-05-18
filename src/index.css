@@ -32,3 +32,13 @@ code {
 .text-stroke {
     -webkit-text-stroke: 3px #242424;
 }
+
+
+.box {
+    transition: 0.3s ease-in-out;
+}
+.box-wrapper:hover .box{
+    /* transform: translateY(0); */
+    height: 100%;
+    opacity: 100%;
+}

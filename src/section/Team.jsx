@@ -12,20 +12,46 @@ import image_team_06 from './../assets/static/images/team/Bas.jpg';
 export function Team() {
     return (
         <LayoutContent header="Het team...">
-            <ItemTeam textTeamMember="Joshua"
-                        imageTeamMember={image_team_01}
-                        noMarginTop />
-            <ItemTeam textTeamMember="Wesley"
-                        imageTeamMember={image_team_02} />
-            <ItemTeam textTeamMember="Ying-Zi"
-                        imageTeamMember={image_team_03} />
-            <ItemTeam textTeamMember="Lindsey"
-                        imageTeamMember={image_team_04} />
-            <ItemTeam textTeamMember="Thijs"
-                        imageTeamMember={image_team_05} />
-            <ItemTeam textTeamMember="Bas"
-                        imageTeamMember={image_team_06}
-                        noMarginBottom />
+            <div className="md:flex md:flex-wrap md:justify-center md:gap-10">
+                <ItemTeam textTeamMember="Joshua"
+                            textEmail="0933530@hr.nl"
+                            textCourse="CMGT"
+                            textFunction="Developer"
+                            imageTeamMember={image_team_01}
+                            noMarginTop
+                            backgroundColor="bg-red"/>
+                <ItemTeam textTeamMember="Wesley"
+                            textEmail="0960572@hr.nl"
+                            textCourse="CMGT"
+                            textFunction="Developer"
+                            imageTeamMember={image_team_02} 
+                            backgroundColor="bg-yellow"/>
+                <ItemTeam textTeamMember="Ying-Zi"
+                            textEmail="1039826@hr.nl"
+                            textCourse="CMD"
+                            textFunction="Designer"
+                            imageTeamMember={image_team_03} 
+                            backgroundColor="bg-blue"/>
+                <ItemTeam textTeamMember="Lindsey"
+                            textEmail="1011219@hr.nl"
+                            textCourse="CMD"
+                            textFunction="Designer"
+                            imageTeamMember={image_team_04} 
+                            backgroundColor="bg-yellow"/>
+                <ItemTeam textTeamMember="Thijs"
+                            textEmail="1005526@hr.nl"
+                            textCourse="CMD"
+                            textFunction="Designer"
+                            imageTeamMember={image_team_05}
+                            backgroundColor="bg-blue"/>
+                <ItemTeam textTeamMember="Bas"
+                            textEmail="1000283@hr.nl"
+                            textCourse="CMD"
+                            textFunction="Designer"
+                            imageTeamMember={image_team_06}
+                            noMarginBottom
+                            backgroundColor="bg-red"/>
+            </div>
         </LayoutContent>
     )
 }

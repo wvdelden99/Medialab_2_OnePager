@@ -10,6 +10,7 @@ module.exports = {
                 "neutral-900": "#242424",
                 "blue": "#60A6C3",
                 "pink": "#FEBDB9",
+                "red": "#FC6663",
                 "yellow": "#FFDFB0",
             }
         },
