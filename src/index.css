@@ -2,16 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Fonts */
+@import url('./assets/fonts/fonts.css');
+
+
 body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
+        sans-serif; */
+    font-family: "Quicksand", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #D5F8FF;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
+}
+
+.font-funky-star {
+    font-family: 'Funky Star', sans-serif;
+}
+
+.text-stroke-sm {
+    -webkit-text-stroke: 2px #242424;
+}
+.text-stroke {
+    -webkit-text-stroke: 3px #242424;
 }
