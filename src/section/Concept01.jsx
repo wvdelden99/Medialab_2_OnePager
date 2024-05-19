@@ -5,13 +5,19 @@ import { ItemImage } from './../components/content/ItemImage';
 export function Concept01() {
     return (
         <LayoutContent header="Concept 1">
-            <ItemImage image={{}}/>
-            <ItemImage image={{}}/>
-            <ItemImage image={{}}/>
-            <ItemImage image={{}}/>
-            <ItemImage image={{}}/>
+            <div className="md:flex md:flex-wrap md:gap-10">
+                <ItemImage image={{}}
+                            widthSmall/>
+                <ItemImage image={{}}
+                            widthLarge/>
+            </div>
+            <div className="md:flex md:flex-wrap md:gap-10">
+                <ItemImage image={{}}
+                            widthLarge/>
+                <ItemImage image={{}}
+                            widthSmall/>
+            </div>
 
-            <h2 className="mb-4 text-lg font-regular text-neutral-900">Brainstorm</h2>
             <p className="text-lg font-regular text-neutral-900">
                 Tekst over de brainstorm sessie hier
             </p>

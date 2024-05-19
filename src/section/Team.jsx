@@ -12,7 +12,7 @@ import image_team_06 from './../assets/static/images/team/Bas.jpg';
 export function Team() {
     return (
         <LayoutContent header="Het team...">
-            <div className="md:flex md:flex-wrap md:justify-center md:gap-10">
+            <div id="Team" className="md:flex md:flex-wrap md:justify-center md:gap-10">
                 <ItemTeam textTeamMember="Joshua"
                             textEmail="0933530@hr.nl"
                             textCourse="CMGT"
