@@ -9,7 +9,7 @@ export function OnsProces() {
     return (
         <LayoutContent header="Ons proces">
             <div className="border-b-2 border-neutral-900 pb-4">
-                <h2 className="md:my-4 md:text-3xl text-lg font-regular text-neutral-900">Brainstorm</h2>
+                <h2 className="md:my-4 md:text-3xl text-lg font-segoe-script font-regular text-neutral-900">Brainstorm</h2>
 
                 <div className="md:flex md:flex-wrap md:gap-10">
                     <ItemImage image={{}}
@@ -29,7 +29,7 @@ export function OnsProces() {
                 </p>
             </div>
             <div className="pt-4">
-                <h2 className="md:my-4 md:text-3xl text-lg font-regular text-neutral-900">Brainstorm</h2>
+                <h2 className="md:my-4 md:text-3xl text-lg font-segoe-script font-regular text-neutral-900">Brainstorm</h2>
 
                 <div className="md:flex md:flex-wrap md:gap-10">
                     <ItemImage image={{}}
