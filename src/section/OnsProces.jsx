@@ -2,7 +2,9 @@
 import { LayoutContent } from '../components/layout/_layoutConent';
 import { ItemImage } from './../components/content/ItemImage'; 
 // Images
-
+import image_01 from './../assets/static/images/image_01_brainstorm.png';
+import image_02 from './../assets/static/images/image_03_team.png';
+import image_03 from './../assets/static/images/image_02_brainstorm.png'
 
 
 export function OnsProces() {
@@ -12,15 +14,15 @@ export function OnsProces() {
                 <h2 className="md:my-4 md:text-3xl text-lg font-segoe-script font-regular text-neutral-900">Brainstorm</h2>
 
                 <div className="md:flex md:flex-wrap md:gap-10">
-                    <ItemImage image={{}}
+                    <ItemImage image={image_01}
                                 widthSmall />
-                    <ItemImage image={{}}
+                    <ItemImage image={image_02}
                                 widthLarge />
                 </div>
                 <div className="md:flex md:flex-wrap md:gap-10">
                     <ItemImage image={{}}
                                 widthLarge />
-                    <ItemImage image={{}}
+                    <ItemImage image={image_03}
                                 widthSmall />
                 </div>
 
