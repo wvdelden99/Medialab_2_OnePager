@@ -31,12 +31,10 @@ export function ItemTeam({textTeamMember, textEmail, textCourse, textFunction, i
             </div>
 
             <div className={`box | absolute rounded-2xl w-full bottom-0 ${ backgroundColor } ${ isBoxVisible ? 'h-full opacity-100' : 'h-0 opacity-0'}`}>
-                <div className="">
-                    <div className="">
-                        <div onClick={closeTeamMember} className="flex justify-end p-3 w-full z-20">
-                            <div className="md:hidden items-center border-2 border-neutral-900 rounded-full bg-blue">
-                                <span className="flex justify-center items-center w-10 h-10 text-4xl font-funky-star text-neutral-100 text-stroke-sm">x</span>
-                            </div>
+                <div className="md:h-full">
+                    <div onClick={closeTeamMember} className="md:hidden flex justify-end p-3 w-full z-20">
+                        <div className="items-center border-2 border-neutral-900 rounded-full bg-blue">
+                            <span className="flex justify-center items-center w-10 h-10 text-4xl font-funky-star text-neutral-100 text-stroke-sm">x</span>
                         </div>
                     </div>
                     <div className="flex flex-col justify-center md:gap-6 gap-3 md:mt-0 -mt-2 mx-auto max-w-[60%] h-full">
