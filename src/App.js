@@ -3,11 +3,9 @@ import './App.css';
 import { Hero } from './section/Hero';
 import { Team } from './section/Team';
 import { Ontwerpvraag } from './section/Ontwerpvraag';
+import { Ontwerprichtlijnen } from './section/Ontwerprichtlijnen';
+import { OnsConcept } from './section/OnsConcept';
 import { OnsProces } from './section/OnsProces';
-import { Concept01 } from './section/Concept01';
-import { Concept02 } from './section/Concept02';
-import { Concept03 } from './section/Concept03';
-
 
 
 function App() {
@@ -16,10 +14,9 @@ function App() {
             <Hero />
             <Team />
             <Ontwerpvraag />
+            <Ontwerprichtlijnen />
+            <OnsConcept />
             <OnsProces />
-            <Concept01 />
-            <Concept02 />
-            <Concept03 />
         </>
     );
 }
